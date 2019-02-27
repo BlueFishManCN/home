@@ -22,7 +22,7 @@
         <h3>Manuscripts</h3>
         <el-row type="flex" justify="center">
             <el-col :span="18">
-                <el-carousel indicator-position="outside">
+                <el-carousel v-if="!isPhone" indicator-position="outside">
                     <el-carousel-item>
                         <img height="100%" src="../assets/spirit/part1.jpeg">
                     </el-carousel-item>
@@ -37,6 +37,23 @@
                     </el-carousel-item>
                     <el-carousel-item>
                         <img height="100%" src="../assets/spirit/part5.jpeg">
+                    </el-carousel-item>
+                </el-carousel>
+                <el-carousel v-else indicator-position="outside" height="200px">
+                    <el-carousel-item>
+                        <img width="100%" src="../assets/spirit/part1.jpeg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img width="100%" src="../assets/spirit/part2.jpeg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img width="100%" src="../assets/spirit/part3.jpeg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img width="100%" src="../assets/spirit/part4.jpeg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img width="100%" src="../assets/spirit/part5.jpeg">
                     </el-carousel-item>
                 </el-carousel>
             </el-col>
