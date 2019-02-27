@@ -1,5 +1,101 @@
 <template>
     <div class="spirit">
-        <h1>This is an sprit page</h1>
+        <h3>Introduction</h3>
+        <el-row type="flex" justify="center">
+            <el-col :span="18">
+                This is a 2d adventure/puzzle game based on a story: Jerry was born in 1949. Like most people, he leads
+                an
+                extraordinary life. However, some day he found himself has the memory of his preexistence. He thought
+                that
+                everybody has a shinny star inside our body and before we were born we were just these stars floating in
+                the
+                sky seeking for the beautiful body we desire to live in. The stars would turn to the soul once they
+                found
+                the body belong to their heart and started a journey from the spirit world to find the body.
+                Fortunately,
+                Jerry was the lucky one who was chosen. In the real world, Jerry was companied with his soul. There are
+                far
+                more challenges and puzzles waiting for them to face…
+            </el-col>
+        </el-row>
+
+        <h3>Manuscripts</h3>
+        <el-row type="flex" justify="center">
+            <el-col :span="18">
+                <el-carousel indicator-position="outside">
+                    <el-carousel-item>
+                        <img height="100%" src="../assets/spirit/part1.jpeg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img height="100%" src="../assets/spirit/part2.jpeg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img height="100%" src="../assets/spirit/part3.jpeg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img height="100%" src="../assets/spirit/part4.jpeg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img height="100%" src="../assets/spirit/part5.jpeg">
+                    </el-carousel-item>
+                </el-carousel>
+            </el-col>
+        </el-row>
+
+        <h3>Story</h3>
+        <el-row style="margin-top: 40px" type="flex" justify="center">
+            <el-col :span="18">
+                <iframe :width="screenWidth" :height="screenHeight"
+                        src="//player.bilibili.com/player.html?aid=44826043&cid=78493249&page=1" scrolling="no"
+                        frameborder="no"
+                        allowfullscreen></iframe>
+            </el-col>
+        </el-row>
+
+        <h3>Demo</h3>
+        <el-row style="margin-top: 40px" type="flex" justify="center">
+            <el-col :span="18">
+                <iframe :width="screenWidth" :height="screenHeight"
+                        src="//player.bilibili.com/player.html?aid=44827264&cid=78498413&page=1" scrolling="no"
+                        frameborder="no"
+                        allowfullscreen></iframe>
+            </el-col>
+        </el-row>
+
+        <h3>Team</h3>
+        <el-row type="flex" justify="center">
+            <el-col :span="18">
+                EBM is short for 'Earn Big Money'! That's our biggest ambition. Actually there're more than four guys in
+                our team. We have one coding peasant who is always coding and another Internet lover who is now busying
+                with all kinds of exams. So this time we come to Imagine Cup 2016 as a small of our big team 'EBM', we
+                named our team 'EBMx'. We choose to make games this time becasue we are crazy about games! We are new
+                fresher but we have our own unique Philosophy about games. So, good luck! And btw, we are from Jiangsu
+                University of Science and Technology. :）
+            </el-col>
+        </el-row>
+        <el-row type="flex" justify="center" style="margin-top: 40px">
+            <el-col :span="18">
+                <img width="75%" src="../assets/spirit/team.jpg">
+            </el-col>
+        </el-row>
+
+        <h3>Play</h3>
+        <el-row type="flex" justify="center" style="margin-bottom: 250px">
+            <el-col :span="18">
+                <a style="font-weight: bold;color: #42b983;text-decoration: none;" href="About.vue">Download</a>
+            </el-col>
+        </el-row>
     </div>
 </template>
+
+<script>
+    export default {
+        name: 'spirit',
+        data() {
+            return {
+                screenWidth: document.body.clientWidth * 0.75,
+                screenHeight: document.body.clientWidth * 0.75 * 3 / 4,
+            };
+        }
+    };
+</script>
