@@ -94,7 +94,7 @@
         name: 'projects',
         data() {
             return {
-                activeName: '1'
+                activeName: '0'
             };
         },
         methods: {
