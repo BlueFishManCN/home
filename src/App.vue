@@ -5,7 +5,7 @@
             |
             <router-link to="/projects">Projects</router-link>
             |
-            <router-link to="/spirit">Spirit</router-link>
+            <router-link to="/spirit">MySpirit</router-link>
             |
             <router-link to="/about">About</router-link>
         </div>

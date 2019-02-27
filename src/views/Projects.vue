@@ -64,7 +64,7 @@
                         </el-tooltip>
                     </el-collapse-item>
                     <el-collapse-item title="Indie game" name="3">
-                        <h4><i class="el-icon-arrow-left"></i>Spirit<i class="el-icon-arrow-right"></i></h4>
+                        <h4><i class="el-icon-arrow-left"></i>MySpirit<i class="el-icon-arrow-right"></i></h4>
                         <el-carousel indicator-position="outside" height="200px">
                             <el-carousel-item>
                                 <img height="100%" src="../assets/spirit/poster1.jpg">

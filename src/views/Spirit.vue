@@ -49,7 +49,7 @@
                         src="//player.bilibili.com/player.html?aid=44826043&cid=78493249&page=1" scrolling="no"
                         frameborder="no"
                         allowfullscreen></iframe>
-                <el-button v-if="isPhone" v-on:click="film()"><img src="../assets/film.png"></el-button>
+                <el-button v-if="isPhone" type="text" v-on:click="film()"><img src="../assets/film.png"></el-button>
             </el-col>
         </el-row>
 
@@ -60,7 +60,7 @@
                         src="//player.bilibili.com/player.html?aid=44827264&cid=78498413&page=1" scrolling="no"
                         frameborder="no"
                         allowfullscreen></iframe>
-                <el-button v-if="isPhone" v-on:click="demo()"><img src="../assets/youtube.png"></el-button>
+                <el-button v-if="isPhone" type="text" v-on:click="demo()"><img src="../assets/youtube.png"></el-button>
             </el-col>
         </el-row>
 
@@ -84,7 +84,7 @@
         <h3>Play</h3>
         <el-row type="flex" justify="center" style="margin-bottom: 250px">
             <el-col :span="18">
-                <el-button v-on:click="download()"><img src="../assets/game-controller.png"></el-button>
+                <el-button type="text" v-on:click="download()"><img src="../assets/game-controller.png"></el-button>
             </el-col>
         </el-row>
     </div>
