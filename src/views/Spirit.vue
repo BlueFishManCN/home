@@ -45,20 +45,22 @@
         <h3>Story</h3>
         <el-row style="margin-top: 40px" type="flex" justify="center">
             <el-col :span="18">
-                <iframe :width="screenWidth" :height="screenHeight"
+                <iframe v-if="!isPhone" :width="screenWidth" :height="screenHeight"
                         src="//player.bilibili.com/player.html?aid=44826043&cid=78493249&page=1" scrolling="no"
                         frameborder="no"
                         allowfullscreen></iframe>
+                <el-button v-if="isPhone" v-on:click="film()"><img src="../assets/film.png"></el-button>
             </el-col>
         </el-row>
 
         <h3>Demo</h3>
         <el-row style="margin-top: 40px" type="flex" justify="center">
             <el-col :span="18">
-                <iframe :width="screenWidth" :height="screenHeight"
+                <iframe v-if="!isPhone" :width="screenWidth" :height="screenHeight"
                         src="//player.bilibili.com/player.html?aid=44827264&cid=78498413&page=1" scrolling="no"
                         frameborder="no"
                         allowfullscreen></iframe>
+                <el-button v-if="isPhone" v-on:click="demo()"><img src="../assets/youtube.png"></el-button>
             </el-col>
         </el-row>
 
@@ -82,7 +84,7 @@
         <h3>Play</h3>
         <el-row type="flex" justify="center" style="margin-bottom: 250px">
             <el-col :span="18">
-                <a style="font-weight: bold;color: #42b983;text-decoration: none;" href="About.vue">Download</a>
+                <el-button v-on:click="download()"><img src="../assets/game-controller.png"></el-button>
             </el-col>
         </el-row>
     </div>
@@ -93,9 +95,39 @@
         name: 'spirit',
         data() {
             return {
+                isPhone: false,
                 screenWidth: document.body.clientWidth * 0.75,
                 screenHeight: document.body.clientWidth * 0.75 * 3 / 4,
             };
+        },
+        methods: {
+            film() {
+                window.location.href = "https://www.bilibili.com/video/av44826043/";
+            },
+            demo() {
+                window.location.href = "https://www.bilibili.com/video/av44827264/";
+            },
+            download() {
+                this.$message('Coming Soon:)');
+            },
+            _browserRedirect() {
+                let sUserAgent = navigator.userAgent.toLowerCase()
+//输出：sUserAgent mozilla/5.0 (iphone; cpu iphone os 9_1 like mac os x) applewebkit/601.1.46 (khtml, like gecko) version/9.0 mobile/13b143 safari/601.1
+                let bIsIpad = sUserAgent.match(/ipad/i) || false
+                let bIsIphoneOs = sUserAgent.match(/iphone/i) || false
+                let bIsMidp = sUserAgent.match(/midp/i) || false
+                let bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) || false
+                let bIsUc = sUserAgent.match(/ucweb/i) || false
+                let bIsAndroid = sUserAgent.match(/android/i) || false
+                let bIsCE = sUserAgent.match(/windows ce/i) || false
+                let bIsWM = sUserAgent.match(/windows mobile/i) || false
+                if (bIsIpad[0] || bIsIphoneOs[0] || bIsMidp[0] || bIsUc7[0] || bIsUc[0] || bIsAndroid[0] || bIsCE[0] || bIsWM[0]) {
+                    this.isPhone = true;
+                }
+            }
+        },
+        created() {
+            this._browserRedirect()
         }
     };
 </script>
