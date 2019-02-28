@@ -7,6 +7,18 @@
             </el-col>
         </el-row>
 
+        <h3>Education</h3>
+        <el-row type="flex" justify="center">
+            <el-col :span="18">
+                Master's degree, Computer Science, Shanghai University
+            </el-col>
+        </el-row>
+        <el-row type="flex" justify="center">
+            <el-col :span="18">
+                Bachelor's degree, Computer Science, Jiangsu University of Science and Technology
+            </el-col>
+        </el-row>
+
         <h3>Awards</h3>
         <el-row type="flex" justify="center">
             <el-col :span="18">
@@ -54,7 +66,7 @@
         </el-row>
 
         <h3>Location</h3>
-        <el-row type="flex" justify="center">
+        <el-row type="flex" justify="center" style="margin-bottom: 250px">
             <el-col :span="16">
                 <div id="containermap" style="width:100%; height:300px"></div>
             </el-col>

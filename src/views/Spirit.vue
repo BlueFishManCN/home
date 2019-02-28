@@ -103,7 +103,7 @@
             </el-col>
         </el-row>
 
-        <h3>Team</h3>
+        <h3>Team EBM</h3>
         <el-row type="flex" justify="center">
             <el-col :span="18">
                 EBM is short for 'Earn Big Money'! That's our biggest ambition. Actually there're more than four guys in
