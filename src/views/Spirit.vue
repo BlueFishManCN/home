@@ -35,19 +35,19 @@
                 </el-carousel>
                 <el-carousel v-else indicator-position="outside" height="200px">
                     <el-carousel-item>
-                        <img width="100%" src="../assets/spirit/part1.jpeg">
+                        <img height="100%" src="../assets/spirit/part1.jpeg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img width="100%" src="../assets/spirit/part2.jpeg">
+                        <img height="100%" src="../assets/spirit/part2.jpeg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img width="100%" src="../assets/spirit/part3.jpeg">
+                        <img height="100%" src="../assets/spirit/part3.jpeg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img width="100%" src="../assets/spirit/part4.jpeg">
+                        <img height="100%" src="../assets/spirit/part4.jpeg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img width="100%" src="../assets/spirit/part5.jpeg">
+                        <img height="100%" src="../assets/spirit/part5.jpeg">
                     </el-carousel-item>
                 </el-carousel>
             </el-col>
@@ -69,13 +69,13 @@
                 </el-carousel>
                 <el-carousel v-else indicator-position="outside" height="200px">
                     <el-carousel-item>
-                        <img width="100%" src="../assets/spirit/poster1.jpg">
+                        <img height="100%" src="../assets/spirit/poster1.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img width="100%" src="../assets/spirit/poster2.jpg">
+                        <img height="100%" src="../assets/spirit/poster2.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img width="100%" src="../assets/spirit/poster3.jpg">
+                        <img height="100%" src="../assets/spirit/poster3.jpg">
                     </el-carousel-item>
                 </el-carousel>
             </el-col>

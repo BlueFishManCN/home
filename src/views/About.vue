@@ -48,22 +48,22 @@
                 </el-carousel>
                 <el-carousel v-else indicator-position="outside" height="200px">
                     <el-carousel-item>
-                        <img width="100%" src="../assets/award.jpg">
+                        <img height="100%" src="../assets/award.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img width="100%" src="../assets/award1.jpg">
+                        <img height="100%" src="../assets/award1.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img width="100%" src="../assets/award2.jpg">
+                        <img height="100%" src="../assets/award2.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img width="100%" src="../assets/award3.jpg">
+                        <img height="100%" src="../assets/award3.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img width="100%" src="../assets/award4.jpg">
+                        <img height="100%" src="../assets/award4.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img width="100%" src="../assets/award5.jpg">
+                        <img height="100%" src="../assets/award5.jpg">
                     </el-carousel-item>
                 </el-carousel>
             </el-col>
