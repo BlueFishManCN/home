@@ -7,6 +7,52 @@
             </el-col>
         </el-row>
 
+        <h3>Awards</h3>
+        <el-row type="flex" justify="center">
+            <el-col :span="18">
+                <el-carousel v-if="!isPhone" indicator-position="outside">
+                    <el-carousel-item>
+                        <img height="100%" src="../assets/award.jpg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img height="100%" src="../assets/award1.jpg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img height="100%" src="../assets/award2.jpg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img height="100%" src="../assets/award3.jpg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img height="100%" src="../assets/award4.jpg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img height="100%" src="../assets/award5.jpg">
+                    </el-carousel-item>
+                </el-carousel>
+                <el-carousel v-else indicator-position="outside" height="200px">
+                    <el-carousel-item>
+                        <img width="100%" src="../assets/award.jpg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img width="100%" src="../assets/award1.jpg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img width="100%" src="../assets/award2.jpg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img width="100%" src="../assets/award3.jpg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img width="100%" src="../assets/award4.jpg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img width="100%" src="../assets/award5.jpg">
+                    </el-carousel-item>
+                </el-carousel>
+            </el-col>
+        </el-row>
+
         <h3>Location</h3>
         <el-row type="flex" justify="center">
             <el-col :span="16">
