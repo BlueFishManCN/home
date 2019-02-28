@@ -56,7 +56,7 @@
         <h3>Posters</h3>
         <el-row type="flex" justify="center">
             <el-col :span="18">
-                <el-carousel v-if="!isPhone" indicator-position="outside">
+                <el-carousel v-if="!isPhone" type="card" indicator-position="outside">
                     <el-carousel-item>
                         <img height="100%" src="../assets/spirit/poster1.jpg">
                     </el-carousel-item>
