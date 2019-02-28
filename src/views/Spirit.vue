@@ -4,18 +4,12 @@
         <el-row type="flex" justify="center">
             <el-col :span="18">
                 This is a 2d adventure/puzzle game based on a story: Jerry was born in 1949. Like most people, he leads
-                an
-                extraordinary life. However, some day he found himself has the memory of his preexistence. He thought
-                that
-                everybody has a shinny star inside our body and before we were born we were just these stars floating in
-                the
-                sky seeking for the beautiful body we desire to live in. The stars would turn to the soul once they
-                found
-                the body belong to their heart and started a journey from the spirit world to find the body.
-                Fortunately,
-                Jerry was the lucky one who was chosen. In the real world, Jerry was companied with his soul. There are
-                far
-                more challenges and puzzles waiting for them to face…
+                an extraordinary life. However, some day he found himself has the memory of his preexistence. He thought
+                that everybody has a shinny star inside our body and before we were born we were just these stars
+                floating in the sky seeking for the beautiful body we desire to live in. The stars would turn to the
+                soul once they found the body belong to their heart and started a journey from the spirit world to find
+                the body. Fortunately, Jerry was the lucky one who was chosen. In the real world, Jerry was companied
+                with his soul. There are far more challenges and puzzles waiting for them to face…
             </el-col>
         </el-row>
 
@@ -60,8 +54,8 @@
         </el-row>
 
         <h3>Story</h3>
-        <el-row style="margin-top: 40px" type="flex" justify="center">
-            <el-col :span="18">
+        <el-row type="flex" justify="center">
+            <el-col :span="14">
                 <iframe v-if="!isPhone" :width="screenWidth" :height="screenHeight"
                         src="//player.bilibili.com/player.html?aid=44826043&cid=78493249&page=1" scrolling="no"
                         frameborder="no"
@@ -71,8 +65,8 @@
         </el-row>
 
         <h3>Demo</h3>
-        <el-row style="margin-top: 40px" type="flex" justify="center">
-            <el-col :span="18">
+        <el-row type="flex" justify="center">
+            <el-col :span="14">
                 <iframe v-if="!isPhone" :width="screenWidth" :height="screenHeight"
                         src="//player.bilibili.com/player.html?aid=44827264&cid=78498413&page=1" scrolling="no"
                         frameborder="no"
@@ -93,15 +87,28 @@
             </el-col>
         </el-row>
         <el-row type="flex" justify="center" style="margin-top: 40px">
+            <el-col :span="24">
+                <img width="50%" src="../assets/spirit/team.jpg">
+            </el-col>
+        </el-row>
+
+        <h3>Award</h3>
+        <el-row type="flex" justify="center">
             <el-col :span="18">
-                <img width="75%" src="../assets/spirit/team.jpg">
+                Second Prize, Microsoft Imagine Cup 2016 National Final, Games. May 2016.
+            </el-col>
+        </el-row>
+        <el-row type="flex" justify="center" style="margin-top: 40px">
+            <el-col :span="24">
+                <img width="50%" src="../assets/spirit/award.jpg">
             </el-col>
         </el-row>
 
         <h3>Play</h3>
         <el-row type="flex" justify="center" style="margin-bottom: 250px">
-            <el-col :span="18">
-                <el-button type="text" v-on:click="download()"><img src="../assets/game-controller.png"></el-button>
+            <el-col :span="14">
+                <el-button type="text" v-on:click="downloadWin()"><img src="../assets/microsoft.png"></el-button>
+                <el-button type="text" v-on:click="downloadMac()"><img src="../assets/apple.png"></el-button>
             </el-col>
         </el-row>
     </div>
@@ -113,8 +120,8 @@
         data() {
             return {
                 isPhone: false,
-                screenWidth: document.body.clientWidth * 0.75,
-                screenHeight: document.body.clientWidth * 0.75 * 3 / 4,
+                screenWidth: document.body.clientWidth * 0.5,
+                screenHeight: document.body.clientWidth * 0.5 * 3 / 4,
             };
         },
         methods: {
@@ -124,8 +131,14 @@
             demo() {
                 window.location.href = "https://www.bilibili.com/video/av44827264/";
             },
-            download() {
-                this.$message('Coming Soon:)');
+            downloadWin() {
+                this.$message('Coming Soon :)');
+            },
+            downloadMac() {
+                this.$message({
+                    message: 'Not available :(',
+                    type: 'error'
+                });
             },
             _browserRedirect() {
                 let sUserAgent = navigator.userAgent.toLowerCase()

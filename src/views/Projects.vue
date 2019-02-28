@@ -27,6 +27,8 @@
                                 <img height="100%" src="../assets/geg2018/geg6.png">
                             </el-carousel-item>
                         </el-carousel>
+                        <div>Date: Jul 2018</div>
+                        <div>Creator(1): Me</div>
                         <div>Tools & Technologies: CodeIgniter, Vue.js, Material Design</div>
                         <el-tooltip class="item" effect="light" content="MORE" placement="top-start">
                             <el-button icon="el-icon-search" circle v-on:click="more(1)"></el-button>
@@ -58,6 +60,8 @@
                                 <img height="100%" src="../assets/dentist/dentist8.png">
                             </el-carousel-item>
                         </el-carousel>
+                        <div>Date: Nov 2017 – Jul 2018</div>
+                        <div>Creator(4): Me, Ruiying Wu, Fuzhang Yang, Jiamin Sun</div>
                         <div>Tools & Technologies: CodeIgniter, Vue.js, Element-UI</div>
                         <el-tooltip class="item" effect="light" content="MORE" placement="top-start">
                             <el-button icon="el-icon-search" circle v-on:click="more(2)"></el-button>
@@ -76,7 +80,12 @@
                                 <img height="100%" src="../assets/spirit/poster3.jpg">
                             </el-carousel-item>
                         </el-carousel>
+                        <div>Date: Dec 2015 – Apr 2016</div>
+                        <div>Creator(4)(Team EBM): Me, Ruizhe Hong, Kai Xie, Xiaomin Zhen</div>
                         <div>Tools & Technologies: Game Design, Unity</div>
+                        <div>
+                            <el-tag type="danger">Award: Second Prize, Microsoft Imagine Cup 2016 National Final, Games. May 2016.</el-tag>
+                        </div>
                         <el-tooltip class="item" effect="light" content="MORE" placement="top-start">
                             <el-button icon="el-icon-search" circle v-on:click="more(3)"></el-button>
                         </el-tooltip>
@@ -87,7 +96,6 @@
 
     </div>
 </template>
-
 
 <script>
     export default {
