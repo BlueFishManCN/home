@@ -53,6 +53,34 @@
             </el-col>
         </el-row>
 
+        <h3>Posters</h3>
+        <el-row type="flex" justify="center">
+            <el-col :span="18">
+                <el-carousel v-if="!isPhone" indicator-position="outside">
+                    <el-carousel-item>
+                        <img height="100%" src="../assets/spirit/poster1.jpg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img height="100%" src="../assets/spirit/poster2.jpg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img height="100%" src="../assets/spirit/poster3.jpg">
+                    </el-carousel-item>
+                </el-carousel>
+                <el-carousel v-else indicator-position="outside" height="200px">
+                    <el-carousel-item>
+                        <img width="100%" src="../assets/spirit/poster1.jpg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img width="100%" src="../assets/spirit/poster2.jpg">
+                    </el-carousel-item>
+                    <el-carousel-item>
+                        <img width="100%" src="../assets/spirit/poster3.jpg">
+                    </el-carousel-item>
+                </el-carousel>
+            </el-col>
+        </el-row>
+
         <h3>Story</h3>
         <el-row type="flex" justify="center">
             <el-col :span="14">

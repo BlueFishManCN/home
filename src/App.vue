@@ -7,6 +7,8 @@
             |
             <router-link to="/spirit">MySpirit</router-link>
             |
+            <router-link to="/papers">Papers</router-link>
+            |
             <router-link to="/about">About</router-link>
         </div>
         <router-view/>

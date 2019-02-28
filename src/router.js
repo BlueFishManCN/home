@@ -22,6 +22,11 @@ export default new Router({
             component: () => import('./views/Spirit.vue')
         },
         {
+            path: '/papers',
+            name: 'papers',
+            component: () => import('./views/Papers.vue')
+        },
+        {
             path: '/about',
             name: 'about',
             // route level code-splitting

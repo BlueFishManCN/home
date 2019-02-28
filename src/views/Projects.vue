@@ -102,7 +102,7 @@
         name: 'projects',
         data() {
             return {
-                activeName: '0'
+                activeName: '3'
             };
         },
         methods: {
