@@ -8,11 +8,15 @@
         </el-row>
 
         <h3>Education</h3>
+        <img v-if="isPhone" width="20%" src="../assets/SHU.png">
+        <img v-else width="6%" src="../assets/SHU.png">
         <el-row type="flex" justify="center">
             <el-col :span="18">
                 Master's degree, Computer Science, Shanghai University
             </el-col>
         </el-row>
+        <img v-if="isPhone" width="25%" src="../assets/JUST.jpeg">
+        <img v-else width="8%" src="../assets/JUST.jpeg">
         <el-row type="flex" justify="center">
             <el-col :span="18">
                 Bachelor's degree, Computer Science, Jiangsu University of Science and Technology
