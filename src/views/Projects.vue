@@ -84,7 +84,12 @@
                         <div>Creator(4)(Team EBM): Me, Ruizhe Hong, Kai Xie, Xiaomin Zhen</div>
                         <div>Tools & Technologies: Game Design, Unity</div>
                         <div>
-                            <el-tag type="danger">Award: Second Prize, Microsoft Imagine Cup 2016 National Final, Games. May 2016.</el-tag>
+                            <el-alert
+                                    title="Award: Second Prize, Microsoft Imagine Cup 2016 National Final, Games. May 2016."
+                                    type="error"
+                                    center
+                                    :closable=false>
+                            </el-alert>
                         </div>
                         <el-tooltip class="item" effect="light" content="MORE" placement="top-start">
                             <el-button icon="el-icon-search" circle v-on:click="more(3)"></el-button>

@@ -133,12 +133,14 @@
         </el-row>
 
         <h3>Play</h3>
-        <el-row type="flex" justify="center" style="margin-bottom: 250px">
+        <el-row type="flex" justify="center">
             <el-col :span="14">
                 <el-button type="text" v-on:click="downloadWin()"><img src="../assets/microsoft.png"></el-button>
                 <el-button type="text" v-on:click="downloadMac()"><img src="../assets/apple.png"></el-button>
             </el-col>
         </el-row>
+
+        <h1 style="margin-top:40px;margin-bottom: 250px">Fin</h1>
     </div>
 </template>
 

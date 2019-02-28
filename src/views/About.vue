@@ -66,11 +66,13 @@
         </el-row>
 
         <h3>Location</h3>
-        <el-row type="flex" justify="center" style="margin-bottom: 250px">
-            <el-col :span="16">
-                <div id="containermap" style="width:100%; height:300px"></div>
+        <el-row type="flex" justify="center">
+            <el-col :span="20">
+                <div id="containermap" style="width:100%; height:250px"></div>
             </el-col>
         </el-row>
+
+        <h1 style="margin-top:40px;margin-bottom: 250px">Fin</h1>
     </div>
 </template>
 
