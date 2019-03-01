@@ -3,7 +3,7 @@
         <h3>ME</h3>
         <el-row type="flex" justify="center">
             <el-col :span="18">
-                I am a postgraduate studying Computer Science at the Department of Computer Technology and Science.
+                I am a postgraduate studying Computer Science at the Department of Computer Technology and Science, Shanghai University.
             </el-col>
         </el-row>
 
