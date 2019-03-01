@@ -21,7 +21,7 @@
                                 class="el-icon-arrow-right"></i>
                         </h4>
                         <div>
-                            Authors: 吴陈, 张吉缘, 王绍雷
+                            Authors: 吴陈, 我, 王绍雷
                         </div>
                         <div>
                             Publication: 信息与电脑: 理论版, 2015, v18, p49
