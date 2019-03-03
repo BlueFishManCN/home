@@ -5,7 +5,7 @@
                 <el-collapse v-model="activeName" accordion>
                     <el-collapse-item title="Paper submission website" name="1">
                         <h4><i class="el-icon-arrow-left"></i>2018 International Conference on Global Economy &
-                            Governance (GEG2018) official paper submission website<i class="el-icon-arrow-right"></i>
+                            Governance (GEG2018) paper submission website<i class="el-icon-arrow-right"></i>
                         </h4>
                         <el-carousel indicator-position="outside" height="200px">
                             <el-carousel-item>
@@ -61,13 +61,13 @@
                             </el-carousel-item>
                         </el-carousel>
                         <div>Date: Nov 2017 – Jul 2018</div>
-                        <div>Creator(4): Me, Ruiying Wu, Fuzhang Yang, Jiamin Sun</div>
+                        <div>Creator(4): Me, Jiamin Sun, Ruiying Wu, Fuzhang Yang</div>
                         <div>Tools & Technologies: CodeIgniter, Vue.js, Element-UI</div>
                         <el-tooltip class="item" effect="light" content="MORE" placement="top-start">
                             <el-button icon="el-icon-search" circle v-on:click="more(2)"></el-button>
                         </el-tooltip>
                     </el-collapse-item>
-                    <el-collapse-item title="Indie game" name="3">
+                    <el-collapse-item title="Puzzle game" name="3">
                         <h4><i class="el-icon-arrow-left"></i>MySpirit<i class="el-icon-arrow-right"></i></h4>
                         <el-carousel indicator-position="outside" height="200px">
                             <el-carousel-item>
@@ -82,7 +82,7 @@
                         </el-carousel>
                         <div>Date: Dec 2015 – Apr 2016</div>
                         <div>Creator(4)(Team EBM): Me, Ruizhe Hong, Kai Xie, Xiaomin Zhen</div>
-                        <div>Tools & Technologies: Game Design, Unity</div>
+                        <div>Tools & Technologies: Unity3D</div>
                         <div>
                             <el-alert
                                     title="Award: Second Prize, Microsoft Imagine Cup 2016 National Final, Games. May 2016."
