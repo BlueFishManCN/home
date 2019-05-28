@@ -6,8 +6,8 @@
                 <el-collapse v-model="activeName" accordion>
 
                     <el-collapse-item title="Deep learning" name="1">
-                        <h4><i class="el-icon-arrow-left"></i>Prediction of Sea Surface Temperature Using GRU
-                            Encoder-Decoder<i class="el-icon-arrow-right"></i>
+                        <h4><i class="el-icon-arrow-left"></i>An Adaptive Multiscale Sea Surface Temperature Prediction
+                            Model Based on SST Attentions<i class="el-icon-arrow-right"></i>
                         </h4>
                         <div>
                             Authors: Jiang Xie, Me, Lingyu Xu
