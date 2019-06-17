@@ -6,14 +6,14 @@
                 <el-collapse v-model="activeName" accordion>
 
                     <el-collapse-item title="Deep learning" name="1">
-                        <h4><i class="el-icon-arrow-left"></i>An Adaptive Multiscale Sea Surface Temperature Prediction
-                            Model Based on SST Attentions<i class="el-icon-arrow-right"></i>
+                        <h4><i class="el-icon-arrow-left"></i>A Sea Surface Temperature Prediction Model Based on SST
+                            Codes with Dynamic Influence Link<i class="el-icon-arrow-right"></i>
                         </h4>
                         <div>
-                            Authors: Jiang Xie, Me, Lingyu Xu
+                            Authors: Jiang Xie, Me, Jie Yu, Lingyu Xu
                         </div>
                         <div>
-                            <el-tag type="danger">Status: Posting</el-tag>
+                            <el-tag type="danger">Status: Posting, IEEE Geoscience and Remote Sensing Letters</el-tag>
                         </div>
                     </el-collapse-item>
                     <el-collapse-item title="Algorithm" name="2">
