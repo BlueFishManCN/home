@@ -49,9 +49,9 @@
                         <div>Date: Jul 2018</div>
                         <div>Creator(1): Me</div>
                         <div>Tools & Technologies: CodeIgniter, Vue.js, Material Design</div>
-                        <!--                        <el-tooltip class="item" effect="light" content="MORE" placement="top-start">-->
-                        <!--                            <el-button icon="el-icon-search" circle v-on:click="more(1)"></el-button>-->
-                        <!--                        </el-tooltip>-->
+                        <el-tooltip class="item" effect="light" content="MORE" placement="top-start">
+                            <el-button icon="el-icon-search" circle v-on:click="more(1)"></el-button>
+                        </el-tooltip>
                     </el-collapse-item>
                     <!--                    <el-collapse-item title="#2 Dentist appointment platform" name="2">-->
                     <!--                        <h4><i class="el-icon-arrow-left"></i>Good Dentist Appointment Platform<i-->
@@ -134,9 +134,9 @@
                 if (id === 0) {
                     window.location.href = "http://biocenter.shu.edu.cn/group";
                 } else if (id === 1) {
-                    window.location.href = "https://zhangjiyuan.cn/conference";
+                    window.location.href = "http://geg2018.shu.edu.cn";
                 } else if (id === 2) {
-                    window.location.href = "https://zhangjiyuan.cn/dentist";
+                    window.location.href = "https://biocenter.shu.edu.cn/dentist_proj";
                 } else if (id === 3) {
                     this.$router.push('/spirit');
                 }
