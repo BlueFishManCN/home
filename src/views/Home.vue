@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <img width="25%" src="../assets/logo.gif">
+        <img width="25%" src="../assets/home/logo.gif">
         <HelloWorld msg="Welcome to My Homepage :)"/>
     </div>
 </template>

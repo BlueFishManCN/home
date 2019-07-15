@@ -18,36 +18,36 @@
             <el-col :span="18">
                 <el-carousel v-if="!isPhone" indicator-position="outside">
                     <el-carousel-item>
-                        <img height="100%" src="../assets/spirit/part1.jpeg">
+                        <img height="100%" src="../assets/projects/spirit/part1.jpeg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/spirit/part2.jpeg">
+                        <img height="100%" src="../assets/projects/spirit/part2.jpeg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/spirit/part3.jpeg">
+                        <img height="100%" src="../assets/projects/spirit/part3.jpeg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/spirit/part4.jpeg">
+                        <img height="100%" src="../assets/projects/spirit/part4.jpeg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/spirit/part5.jpeg">
+                        <img height="100%" src="../assets/projects/spirit/part5.jpeg">
                     </el-carousel-item>
                 </el-carousel>
                 <el-carousel v-else indicator-position="outside" height="200px">
                     <el-carousel-item>
-                        <img height="100%" src="../assets/spirit/part1.jpeg">
+                        <img height="100%" src="../assets/projects/spirit/part1.jpeg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/spirit/part2.jpeg">
+                        <img height="100%" src="../assets/projects/spirit/part2.jpeg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/spirit/part3.jpeg">
+                        <img height="100%" src="../assets/projects/spirit/part3.jpeg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/spirit/part4.jpeg">
+                        <img height="100%" src="../assets/projects/spirit/part4.jpeg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/spirit/part5.jpeg">
+                        <img height="100%" src="../assets/projects/spirit/part5.jpeg">
                     </el-carousel-item>
                 </el-carousel>
             </el-col>
@@ -58,24 +58,24 @@
             <el-col :span="18">
                 <el-carousel v-if="!isPhone" type="card" indicator-position="outside">
                     <el-carousel-item>
-                        <img height="100%" src="../assets/spirit/poster1.jpg">
+                        <img height="100%" src="../assets/projects/spirit/poster1.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/spirit/poster2.jpg">
+                        <img height="100%" src="../assets/projects/spirit/poster2.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/spirit/poster3.jpg">
+                        <img height="100%" src="../assets/projects/spirit/poster3.jpg">
                     </el-carousel-item>
                 </el-carousel>
                 <el-carousel v-else indicator-position="outside" height="200px">
                     <el-carousel-item>
-                        <img height="100%" src="../assets/spirit/poster1.jpg">
+                        <img height="100%" src="../assets/projects/spirit/poster1.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/spirit/poster2.jpg">
+                        <img height="100%" src="../assets/projects/spirit/poster2.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/spirit/poster3.jpg">
+                        <img height="100%" src="../assets/projects/spirit/poster3.jpg">
                     </el-carousel-item>
                 </el-carousel>
             </el-col>
@@ -88,7 +88,7 @@
                         src="//player.bilibili.com/player.html?aid=44826043&cid=78493249&page=1" scrolling="no"
                         frameborder="no"
                         allowfullscreen></iframe>
-                <el-button v-if="isPhone" type="text" v-on:click="film()"><img src="../assets/film.png"></el-button>
+                <el-button v-if="isPhone" type="text" v-on:click="film()"><img src="../assets/projects/spirit/film.png"></el-button>
             </el-col>
         </el-row>
 
@@ -99,7 +99,7 @@
                         src="//player.bilibili.com/player.html?aid=44827264&cid=78498413&page=1" scrolling="no"
                         frameborder="no"
                         allowfullscreen></iframe>
-                <el-button v-if="isPhone" type="text" v-on:click="demo()"><img src="../assets/youtube.png"></el-button>
+                <el-button v-if="isPhone" type="text" v-on:click="demo()"><img src="../assets/projects/spirit/youtube.png"></el-button>
             </el-col>
         </el-row>
 
@@ -114,8 +114,8 @@
                 University of Science and Technology. :）
             </el-col>
         </el-row>
-        <img v-if="isPhone" width="75%" src="../assets/spirit/team.jpg">
-        <img v-else style="margin-top: 20px" width="40%" src="../assets/spirit/team.jpg">
+        <img v-if="isPhone" width="75%" src="../assets/projects/spirit/team.jpg">
+        <img v-else style="margin-top: 20px" width="40%" src="../assets/projects/spirit/team.jpg">
 
         <h3>Award</h3>
         <el-row type="flex" justify="center">
@@ -123,14 +123,14 @@
                 Second Prize, Microsoft Imagine Cup 2016 National Final, Games. May 2016.
             </el-col>
         </el-row>
-        <img v-if="isPhone" width="75%" src="../assets/spirit/award.jpg">
-        <img v-else width="50%" src="../assets/spirit/award.jpg">
+        <img v-if="isPhone" width="75%" src="../assets/projects/spirit/award.jpg">
+        <img v-else width="50%" src="../assets/projects/spirit/award.jpg">
 
         <h3>Play</h3>
         <el-row type="flex" justify="center">
             <el-col :span="14">
-                <el-button type="text" v-on:click="downloadWin()"><img src="../assets/microsoft.png"></el-button>
-                <el-button type="text" v-on:click="downloadMac()"><img src="../assets/apple.png"></el-button>
+                <el-button type="text" v-on:click="downloadWin()"><img src="../assets/projects/spirit/microsoft.png"></el-button>
+                <el-button type="text" v-on:click="downloadMac()"><img src="../assets/projects/spirit/apple.png"></el-button>
             </el-col>
         </el-row>
 

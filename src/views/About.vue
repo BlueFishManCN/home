@@ -9,15 +9,15 @@
         </el-row>
 
         <h3>Education</h3>
-        <img v-if="isPhone" width="20%" src="../assets/SHU.png">
-        <img v-else width="6%" src="../assets/SHU.png">
+        <img v-if="isPhone" width="20%" src="../assets/about/SHU.png">
+        <img v-else width="6%" src="../assets/about/SHU.png">
         <el-row type="flex" justify="center">
             <el-col :span="18">
                 Master's degree, Computer Science, Shanghai University
             </el-col>
         </el-row>
-        <img v-if="isPhone" width="25%" src="../assets/JUST.jpeg">
-        <img v-else width="8%" src="../assets/JUST.jpeg">
+        <img v-if="isPhone" width="25%" src="../assets/about/JUST.jpeg">
+        <img v-else width="8%" src="../assets/about/JUST.jpeg">
         <el-row type="flex" justify="center">
             <el-col :span="18">
                 Bachelor's degree, Computer Science, Jiangsu University of Science and Technology
@@ -29,42 +29,42 @@
             <el-col :span="18">
                 <el-carousel v-if="!isPhone" type="card" indicator-position="outside">
                     <el-carousel-item>
-                        <img height="100%" src="../assets/award.jpg">
+                        <img height="100%" src="../assets/about/award.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/award1.jpg">
+                        <img height="100%" src="../assets/about/award1.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/award2.jpg">
+                        <img height="100%" src="../assets/about/award2.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/award3.jpg">
+                        <img height="100%" src="../assets/about/award3.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/award4.jpg">
+                        <img height="100%" src="../assets/about/award4.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/award5.jpg">
+                        <img height="100%" src="../assets/about/award5.jpg">
                     </el-carousel-item>
                 </el-carousel>
                 <el-carousel v-else indicator-position="outside" height="200px">
                     <el-carousel-item>
-                        <img height="100%" src="../assets/award.jpg">
+                        <img height="100%" src="../assets/about/award.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/award1.jpg">
+                        <img height="100%" src="../assets/about/award1.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/award2.jpg">
+                        <img height="100%" src="../assets/about/award2.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/award3.jpg">
+                        <img height="100%" src="../assets/about/award3.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/award4.jpg">
+                        <img height="100%" src="../assets/about/award4.jpg">
                     </el-carousel-item>
                     <el-carousel-item>
-                        <img height="100%" src="../assets/award5.jpg">
+                        <img height="100%" src="../assets/about/award5.jpg">
                     </el-carousel-item>
                 </el-carousel>
             </el-col>

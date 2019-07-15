@@ -9,10 +9,10 @@
                         </h4>
                         <el-carousel indicator-position="outside" height="200px">
                             <el-carousel-item>
-                                <img height="100%" src="../assets/group/group1.png">
+                                <img height="100%" src="../assets/projects/group/group1.png">
                             </el-carousel-item>
                             <el-carousel-item>
-                                <img height="100%" src="../assets/group/group2.png">
+                                <img height="100%" src="../assets/projects/group/group2.png">
                             </el-carousel-item>
                         </el-carousel>
                         <div>Date: Jul 2019 until now</div>
@@ -28,30 +28,30 @@
                         </h4>
                         <el-carousel indicator-position="outside" height="200px">
                             <el-carousel-item>
-                                <img height="100%" src="../assets/geg2018/geg1.png">
+                                <img height="100%" src="../assets/projects/geg2018/geg1.png">
                             </el-carousel-item>
                             <el-carousel-item>
-                                <img height="100%" src="../assets/geg2018/geg2.png">
+                                <img height="100%" src="../assets/projects/geg2018/geg2.png">
                             </el-carousel-item>
                             <el-carousel-item>
-                                <img height="100%" src="../assets/geg2018/geg3.png">
+                                <img height="100%" src="../assets/projects/geg2018/geg3.png">
                             </el-carousel-item>
                             <el-carousel-item>
-                                <img height="100%" src="../assets/geg2018/geg4.png">
+                                <img height="100%" src="../assets/projects/geg2018/geg4.png">
                             </el-carousel-item>
                             <el-carousel-item>
-                                <img height="100%" src="../assets/geg2018/geg5.png">
+                                <img height="100%" src="../assets/projects/geg2018/geg5.png">
                             </el-carousel-item>
                             <el-carousel-item>
-                                <img height="100%" src="../assets/geg2018/geg6.png">
+                                <img height="100%" src="../assets/projects/geg2018/geg6.png">
                             </el-carousel-item>
                         </el-carousel>
                         <div>Date: Jul 2018</div>
                         <div>Creator(1): Me</div>
                         <div>Tools & Technologies: CodeIgniter, Vue.js, Material Design</div>
-                        <el-tooltip class="item" effect="light" content="MORE" placement="top-start">
-                            <el-button icon="el-icon-search" circle v-on:click="more(1)"></el-button>
-                        </el-tooltip>
+                        <!--                        <el-tooltip class="item" effect="light" content="MORE" placement="top-start">-->
+                        <!--                            <el-button icon="el-icon-search" circle v-on:click="more(1)"></el-button>-->
+                        <!--                        </el-tooltip>-->
                     </el-collapse-item>
                     <!--                    <el-collapse-item title="#2 Dentist appointment platform" name="2">-->
                     <!--                        <h4><i class="el-icon-arrow-left"></i>Good Dentist Appointment Platform<i-->
@@ -90,13 +90,13 @@
                         <h4><i class="el-icon-arrow-left"></i>MySpirit<i class="el-icon-arrow-right"></i></h4>
                         <el-carousel indicator-position="outside" height="200px">
                             <el-carousel-item>
-                                <img height="100%" src="../assets/spirit/poster1.jpg">
+                                <img height="100%" src="../assets/projects/spirit/poster1.jpg">
                             </el-carousel-item>
                             <el-carousel-item>
-                                <img height="100%" src="../assets/spirit/poster2.jpg">
+                                <img height="100%" src="../assets/projects/spirit/poster2.jpg">
                             </el-carousel-item>
                             <el-carousel-item>
-                                <img height="100%" src="../assets/spirit/poster3.jpg">
+                                <img height="100%" src="../assets/projects/spirit/poster3.jpg">
                             </el-carousel-item>
                         </el-carousel>
                         <div>Date: Dec 2015 – Apr 2016</div>
