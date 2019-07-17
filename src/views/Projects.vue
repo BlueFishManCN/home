@@ -53,40 +53,40 @@
                             <el-button icon="el-icon-search" circle v-on:click="more(1)"></el-button>
                         </el-tooltip>
                     </el-collapse-item>
-                    <!--                    <el-collapse-item title="#2 Dentist appointment platform" name="2">-->
-                    <!--                        <h4><i class="el-icon-arrow-left"></i>Good Dentist Appointment Platform<i-->
-                    <!--                                class="el-icon-arrow-right"></i></h4>-->
-                    <!--                        <el-carousel indicator-position="outside" height="200px">-->
-                    <!--                            <el-carousel-item>-->
-                    <!--                                <img height="100%" src="../assets/dentist/dentist1.png">-->
-                    <!--                            </el-carousel-item>-->
-                    <!--                            <el-carousel-item>-->
-                    <!--                                <img height="100%" src="../assets/dentist/dentist2.png">-->
-                    <!--                            </el-carousel-item>-->
-                    <!--                            <el-carousel-item>-->
-                    <!--                                <img height="100%" src="../assets/dentist/dentist4.png">-->
-                    <!--                            </el-carousel-item>-->
-                    <!--                            <el-carousel-item>-->
-                    <!--                                <img height="100%" src="../assets/dentist/dentist5.png">-->
-                    <!--                            </el-carousel-item>-->
-                    <!--                            <el-carousel-item>-->
-                    <!--                                <img height="100%" src="../assets/dentist/dentist6.png">-->
-                    <!--                            </el-carousel-item>-->
-                    <!--                            <el-carousel-item>-->
-                    <!--                                <img height="100%" src="../assets/dentist/dentist7.png">-->
-                    <!--                            </el-carousel-item>-->
-                    <!--                            <el-carousel-item>-->
-                    <!--                                <img height="100%" src="../assets/dentist/dentist8.png">-->
-                    <!--                            </el-carousel-item>-->
-                    <!--                        </el-carousel>-->
-                    <!--                        <div>Date: Nov 2017 – Jul 2018</div>-->
-                    <!--                        <div>Creator(4): Me, Jiamin Sun, Ruiying Wu, Fuzhang Yang</div>-->
-                    <!--                        <div>Tools & Technologies: CodeIgniter, Vue.js, Element-UI</div>-->
-                    <!--                        <el-tooltip class="item" effect="light" content="MORE" placement="top-start">-->
-                    <!--                            <el-button icon="el-icon-search" circle v-on:click="more(2)"></el-button>-->
-                    <!--                        </el-tooltip>-->
-                    <!--                    </el-collapse-item>-->
-                    <el-collapse-item title="#2 Puzzle game" name="3">
+                    <el-collapse-item title="#2 Dentist appointment platform" name="2">
+                        <h4><i class="el-icon-arrow-left"></i>Good Dentist Appointment Platform<i
+                                class="el-icon-arrow-right"></i></h4>
+                        <el-carousel indicator-position="outside" height="200px">
+                            <el-carousel-item>
+                                <img height="100%" src="../assets/projects/dentist/dentist1.png">
+                            </el-carousel-item>
+                            <el-carousel-item>
+                                <img height="100%" src="../assets/projects/dentist/dentist2.png">
+                            </el-carousel-item>
+                            <el-carousel-item>
+                                <img height="100%" src="../assets/projects/dentist/dentist4.png">
+                            </el-carousel-item>
+                            <el-carousel-item>
+                                <img height="100%" src="../assets/projects/dentist/dentist5.png">
+                            </el-carousel-item>
+                            <el-carousel-item>
+                                <img height="100%" src="../assets/projects/dentist/dentist6.png">
+                            </el-carousel-item>
+                            <el-carousel-item>
+                                <img height="100%" src="../assets/projects/dentist/dentist7.png">
+                            </el-carousel-item>
+                            <el-carousel-item>
+                                <img height="100%" src="../assets/projects/dentist/dentist8.png">
+                            </el-carousel-item>
+                        </el-carousel>
+                        <div>Date: Nov 2017 – Jul 2018</div>
+                        <div>Creator(4): Me, Jiamin Sun, Ruiying Wu, Fuzhang Yang</div>
+                        <div>Tools & Technologies: CodeIgniter, Vue.js, Element-UI</div>
+                        <el-tooltip class="item" effect="light" content="MORE" placement="top-start">
+                            <el-button icon="el-icon-search" circle v-on:click="more(2)"></el-button>
+                        </el-tooltip>
+                    </el-collapse-item>
+                    <el-collapse-item title="#3 Puzzle game" name="3">
                         <h4><i class="el-icon-arrow-left"></i>MySpirit<i class="el-icon-arrow-right"></i></h4>
                         <el-carousel indicator-position="outside" height="200px">
                             <el-carousel-item>
@@ -126,7 +126,7 @@
         name: 'projects',
         data() {
             return {
-                activeName: '3'
+                activeName: '0'
             };
         },
         methods: {
@@ -136,7 +136,7 @@
                 } else if (id === 1) {
                     window.location.href = "http://geg2018.shu.edu.cn";
                 } else if (id === 2) {
-                    window.location.href = "https://biocenter.shu.edu.cn/dentist_proj";
+                    window.location.href = "http://biocenter.shu.edu.cn/dentist_proj";
                 } else if (id === 3) {
                     this.$router.push('/spirit');
                 }
