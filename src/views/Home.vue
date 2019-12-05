@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <img width="25%" src="../assets/home/logo.gif">
+        <el-image style="width: 30%" v-for="url in urls" :src="url" lazy></el-image>
         <HelloWorld msg="Welcome to My Homepage :)"/>
     </div>
 </template>
@@ -11,6 +11,13 @@
 
     export default {
         name: 'home',
+
+        data() {
+            return {
+                urls: [require('../assets/home/logo.gif')],
+            }
+        },
+
         components: {
             HelloWorld
         }
