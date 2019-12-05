@@ -37,11 +37,11 @@
 <script>
     export default {
         name: 'papers',
+
         data() {
             return {
-                activeName: '1'
+                activeName: '1',
             };
-        },
-        methods: {}
+        }
     }
 </script>
