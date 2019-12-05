@@ -12,6 +12,21 @@ export default new Router({
             component: Home
         },
         {
+            path: '/papers',
+            name: 'papers',
+            component: () => import('./views/Papers.vue')
+        },
+        {
+            path: '/ged',
+            name: 'ged',
+            component: () => import('./views/GED.vue')
+        },
+        {
+            path: '/cgmp',
+            name: 'cgmp',
+            component: () => import('./views/CGMP.vue')
+        },
+        {
             path: '/projects',
             name: 'projects',
             component: () => import('./views/Projects.vue')
@@ -20,11 +35,6 @@ export default new Router({
             path: '/spirit',
             name: 'spirit',
             component: () => import('./views/Spirit.vue')
-        },
-        {
-            path: '/papers',
-            name: 'papers',
-            component: () => import('./views/Papers.vue')
         },
         {
             path: '/about',
