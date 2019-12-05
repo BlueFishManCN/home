@@ -24,58 +24,6 @@
             </el-col>
         </el-row>
 
-        <h3>Awards</h3>
-        <el-row type="flex" justify="center">
-            <el-col :span="18">
-                <el-carousel v-if="!isPhone" type="card" indicator-position="outside">
-                    <el-carousel-item>
-                        <img height="100%" src="../assets/about/award.jpg">
-                    </el-carousel-item>
-                    <el-carousel-item>
-                        <img height="100%" src="../assets/about/award1.jpg">
-                    </el-carousel-item>
-                    <el-carousel-item>
-                        <img height="100%" src="../assets/about/award2.jpg">
-                    </el-carousel-item>
-                    <el-carousel-item>
-                        <img height="100%" src="../assets/about/award3.jpg">
-                    </el-carousel-item>
-                    <el-carousel-item>
-                        <img height="100%" src="../assets/about/award4.jpg">
-                    </el-carousel-item>
-                    <el-carousel-item>
-                        <img height="100%" src="../assets/about/award5.jpg">
-                    </el-carousel-item>
-                </el-carousel>
-                <el-carousel v-else indicator-position="outside" height="200px">
-                    <el-carousel-item>
-                        <img height="100%" src="../assets/about/award.jpg">
-                    </el-carousel-item>
-                    <el-carousel-item>
-                        <img height="100%" src="../assets/about/award1.jpg">
-                    </el-carousel-item>
-                    <el-carousel-item>
-                        <img height="100%" src="../assets/about/award2.jpg">
-                    </el-carousel-item>
-                    <el-carousel-item>
-                        <img height="100%" src="../assets/about/award3.jpg">
-                    </el-carousel-item>
-                    <el-carousel-item>
-                        <img height="100%" src="../assets/about/award4.jpg">
-                    </el-carousel-item>
-                    <el-carousel-item>
-                        <img height="100%" src="../assets/about/award5.jpg">
-                    </el-carousel-item>
-                </el-carousel>
-            </el-col>
-        </el-row>
-
-        <h3>Location</h3>
-        <el-row type="flex" justify="center">
-            <el-col :span="20">
-                <div id="containermap" style="width:100%; height:250px"></div>
-            </el-col>
-        </el-row>
 
         <h1 style="margin-top:40px;margin-bottom: 250px">Fin</h1>
     </div>
@@ -84,23 +32,17 @@
 <script>
     export default {
         name: 'about',
+
         data() {
             return {
                 isPhone: false,
             };
         },
-        mounted() {
-            var map = new AMap.Map('containermap', {
-                zoom: 15,//级别
-                center: [121.399822, 31.317432],//中心点坐标
-            });
-            var marker = new AMap.Marker({
-                position: [121.399822, 31.317432],//位置
-                title: '上海大学计算机科学与工程学院'
-            });
-            map.add(marker);//添加到地图
 
+        created() {
+            this._browserRedirect()
         },
+
         methods: {
             _browserRedirect() {
                 let sUserAgent = navigator.userAgent.toLowerCase()
@@ -117,9 +59,6 @@
                     this.isPhone = true;
                 }
             }
-        },
-        created() {
-            this._browserRedirect()
         }
     }
 </script>
