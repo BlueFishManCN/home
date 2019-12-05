@@ -88,7 +88,8 @@
                         src="//player.bilibili.com/player.html?aid=44826043&cid=78493249&page=1" scrolling="no"
                         frameborder="no"
                         allowfullscreen></iframe>
-                <el-button v-if="isPhone" type="text" v-on:click="film()"><img src="../assets/projects/spirit/film.png"></el-button>
+                <el-button v-if="isPhone" type="text" v-on:click="film()"><img src="../assets/projects/spirit/film.png">
+                </el-button>
             </el-col>
         </el-row>
 
@@ -99,7 +100,8 @@
                         src="//player.bilibili.com/player.html?aid=44827264&cid=78498413&page=1" scrolling="no"
                         frameborder="no"
                         allowfullscreen></iframe>
-                <el-button v-if="isPhone" type="text" v-on:click="demo()"><img src="../assets/projects/spirit/youtube.png"></el-button>
+                <el-button v-if="isPhone" type="text" v-on:click="demo()"><img
+                        src="../assets/projects/spirit/youtube.png"></el-button>
             </el-col>
         </el-row>
 
@@ -129,8 +131,10 @@
         <h3>Play</h3>
         <el-row type="flex" justify="center">
             <el-col :span="14">
-                <el-button type="text" v-on:click="downloadWin()"><img src="../assets/projects/spirit/microsoft.png"></el-button>
-                <el-button type="text" v-on:click="downloadMac()"><img src="../assets/projects/spirit/apple.png"></el-button>
+                <el-button type="text" v-on:click="downloadWin()"><img src="../assets/projects/spirit/microsoft.png">
+                </el-button>
+                <el-button type="text" v-on:click="downloadMac()"><img src="../assets/projects/spirit/apple.png">
+                </el-button>
             </el-col>
         </el-row>
 
@@ -141,6 +145,7 @@
 <script>
     export default {
         name: 'spirit',
+
         data() {
             return {
                 isPhone: false,
@@ -148,6 +153,11 @@
                 screenHeight: document.body.clientWidth * 0.5 * 3 / 4,
             };
         },
+
+        created() {
+            this._browserRedirect()
+        },
+
         methods: {
             film() {
                 window.location.href = "https://www.bilibili.com/video/av44826043/";
@@ -179,9 +189,6 @@
                     this.isPhone = true;
                 }
             }
-        },
-        created() {
-            this._browserRedirect()
         }
     };
 </script>
