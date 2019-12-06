@@ -2,7 +2,6 @@
     <div class="projects">
         <el-row type="flex" justify="center">
             <el-col :span="22">
-
                 <el-timeline>
                     <el-timeline-item timestamp="2019" placement="top">
                         <el-card>
@@ -32,7 +31,6 @@
                 </el-timeline>
             </el-col>
         </el-row>
-
     </div>
 </template>
 
