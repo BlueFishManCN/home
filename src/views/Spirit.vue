@@ -116,8 +116,6 @@
                 University of Science and Technology. :）
             </el-col>
         </el-row>
-        <img v-if="isPhone" width="75%" src="../assets/projects/spirit/team.jpg">
-        <img v-else style="margin-top: 20px" width="40%" src="../assets/projects/spirit/team.jpg">
 
         <h3>Award</h3>
         <el-row type="flex" justify="center">
@@ -125,8 +123,6 @@
                 Second Prize, Microsoft Imagine Cup 2016 National Final, Games. May 2016.
             </el-col>
         </el-row>
-        <img v-if="isPhone" width="75%" src="../assets/projects/spirit/award.jpg">
-        <img v-else width="50%" src="../assets/projects/spirit/award.jpg">
 
         <h3>Play</h3>
         <el-row type="flex" justify="center">
