@@ -13,8 +13,8 @@
                                          href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8859"><i
                                         class="el-icon-view"></i></el-link>
                             </h4>
-                            <p>Authors: Me, Jiang Xie, Jie Yu, Lingyu Xu</p>
-                            <p>Publication: IEEE Geoscience and Remote Sensing Letters(JCR Q2, CCF Class C)</p>
+                            <div>Authors: Me, Jiang Xie, Jie Yu, Lingyu Xu</div>
+                            <div>Publication: IEEE Geoscience and Remote Sensing Letters(JCR Q2, CCF Class C)</div>
                         </el-card>
                     </el-timeline-item>
 
@@ -25,8 +25,8 @@
                                          href="http://xueshu.baidu.com/usercenter/paper/show?paperid=e7796a4b3e6204779335213896ee4b6b&site=xueshu_se&hitarticle=1">
                                     <i class="el-icon-view"></i></el-link>
                             </h4>
-                            <p>Authors: 吴陈, 我, 王绍雷</p>
-                            <p>Publication: 信息与电脑</p>
+                            <div>Authors: 吴陈, 我, 王绍雷</div>
+                            <div>Publication: 信息与电脑</div>
                         </el-card>
                     </el-timeline-item>
                 </el-timeline>
