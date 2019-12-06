@@ -1,31 +1,41 @@
 <template>
     <div class="about">
-        <h3>ME</h3>
         <el-row type="flex" justify="center">
             <el-col :span="22">
-                I am a postgraduate studying Computer Science at the School of Computer Engineering and Science,
-                Shanghai University.
+                <el-timeline>
+                    <el-timeline-item timestamp="RIGHT NOW" placement="top">
+                        <el-card>
+                            <h3>
+                                I am a postgraduate studying Computer Science at the School of Computer Engineering and
+                                Science, Shanghai University.
+                            </h3>
+                        </el-card>
+                    </el-timeline-item>
+
+                    <el-timeline-item timestamp="2017.9 - RIGHT NOW" placement="top">
+                        <el-card>
+                            <img v-if="isPhone" width="20%" src="../assets/about/SHU.png">
+                            <img v-else width="6%" src="../assets/about/SHU.png">
+                            <h4>Master's degree, Computer Science, Shanghai University</h4>
+                        </el-card>
+                    </el-timeline-item>
+
+                    <el-timeline-item timestamp="2013.9 - 2017.6" placement="top">
+                        <el-card>
+                            <img v-if="isPhone" width="25%" src="../assets/about/JUST.jpeg">
+                            <img v-else width="8%" src="../assets/about/JUST.jpeg">
+                            <h4> Bachelor's degree, Computer Science, Jiangsu University of Science and Technology</h4>
+                        </el-card>
+                    </el-timeline-item>
+
+                    <el-timeline-item timestamp="LONG LONG AGO" placement="top">
+                        <el-card>
+                            <h1>Fin</h1>
+                        </el-card>
+                    </el-timeline-item>
+                </el-timeline>
             </el-col>
         </el-row>
-
-        <h3>Education</h3>
-        <img v-if="isPhone" width="20%" src="../assets/about/SHU.png">
-        <img v-else width="6%" src="../assets/about/SHU.png">
-        <el-row type="flex" justify="center">
-            <el-col :span="22">
-                Master's degree, Computer Science, Shanghai University
-            </el-col>
-        </el-row>
-        <img v-if="isPhone" width="25%" src="../assets/about/JUST.jpeg">
-        <img v-else width="8%" src="../assets/about/JUST.jpeg">
-        <el-row type="flex" justify="center">
-            <el-col :span="22">
-                Bachelor's degree, Computer Science, Jiangsu University of Science and Technology
-            </el-col>
-        </el-row>
-
-
-        <h1 style="margin-top:40px;margin-bottom: 250px">Fin</h1>
     </div>
 </template>
 
