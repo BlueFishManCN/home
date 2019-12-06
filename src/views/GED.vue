@@ -1,7 +1,8 @@
 <template>
     <div class="ged">
         <h1>An Adaptive Scale Sea Surface Temperature Predicting Method Based on Deep Learning With Attention
-            Mechanism</h1>
+            Mechanism
+        </h1>
         <h4>Jiang Xie, Jiyuan Zhang, Jie Yu, and Lingyu Xu</h4>
 
         <h3>ABSTARCT</h3>
@@ -23,6 +24,16 @@
                 relationships between historical and future SSTs were further explored, and there was a meaningful
                 finding that each future daily mean SST of Bohai Sea most strongly correlated with the past 27th to 29th
                 historical values.
+            </el-col>
+        </el-row>
+
+        <h3>PAPER</h3>
+        <el-row type="flex" justify="center">
+            <el-col :span="22">
+                <el-link type="primary" :underline="false"
+                         href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8859">
+                    download
+                </el-link>
             </el-col>
         </el-row>
 

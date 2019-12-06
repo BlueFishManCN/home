@@ -10,7 +10,7 @@
                                 An Adaptive Scale Sea Surface Temperature Predicting Method Based on Deep Learning with
                                 Attention Mechanism
                                 <el-link type="primary" :underline="false"
-                                         href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8859"><i
+                                         href="https://bluefishmancn.github.io/home/#/ged"><i
                                         class="el-icon-view"></i></el-link>
                             </h4>
                             <div>Authors: Me, Jiang Xie, Jie Yu, Lingyu Xu</div>
