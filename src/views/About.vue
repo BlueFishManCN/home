@@ -12,14 +12,14 @@
         <img v-if="isPhone" width="20%" src="../assets/about/SHU.png">
         <img v-else width="6%" src="../assets/about/SHU.png">
         <el-row type="flex" justify="center">
-            <el-col :span="18">
+            <el-col :span="22">
                 Master's degree, Computer Science, Shanghai University
             </el-col>
         </el-row>
         <img v-if="isPhone" width="25%" src="../assets/about/JUST.jpeg">
         <img v-else width="8%" src="../assets/about/JUST.jpeg">
         <el-row type="flex" justify="center">
-            <el-col :span="18">
+            <el-col :span="22">
                 Bachelor's degree, Computer Science, Jiangsu University of Science and Technology
             </el-col>
         </el-row>

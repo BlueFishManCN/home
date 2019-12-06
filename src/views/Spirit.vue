@@ -15,7 +15,7 @@
 
         <h3>Manuscripts</h3>
         <el-row type="flex" justify="center">
-            <el-col :span="18">
+            <el-col :span="22">
                 <el-carousel v-if="!isPhone" indicator-position="outside">
                     <el-carousel-item>
                         <img height="100%" src="../assets/projects/spirit/part1.jpeg">
@@ -55,7 +55,7 @@
 
         <h3>Posters</h3>
         <el-row type="flex" justify="center">
-            <el-col :span="18">
+            <el-col :span="22">
                 <el-carousel v-if="!isPhone" type="card" indicator-position="outside">
                     <el-carousel-item>
                         <img height="100%" src="../assets/projects/spirit/poster1.jpg">
@@ -107,7 +107,7 @@
 
         <h3>Team EBM</h3>
         <el-row type="flex" justify="center">
-            <el-col :span="18">
+            <el-col :span="22">
                 EBM is short for 'Earn Big Money'! That's our biggest ambition. Actually there're more than four guys in
                 our team. We have one coding peasant who is always coding and another Internet lover who is now busying
                 with all kinds of exams. So this time we come to Imagine Cup 2016 as a small of our big team 'EBM', we
@@ -119,7 +119,7 @@
 
         <h3>Award</h3>
         <el-row type="flex" justify="center">
-            <el-col :span="18">
+            <el-col :span="22">
                 Second Prize, Microsoft Imagine Cup 2016 National Final, Games. May 2016.
             </el-col>
         </el-row>
