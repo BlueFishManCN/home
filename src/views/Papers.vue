@@ -1,33 +1,35 @@
 <template>
     <div class="projects">
         <el-row type="flex" justify="center">
-            <el-col :span="18">
+            <el-col :span="22">
 
-                <el-collapse v-model="activeName" accordion>
+                <el-timeline>
+                    <el-timeline-item timestamp="2019" placement="top">
+                        <el-card>
+                            <h4>
+                                An Adaptive Scale Sea Surface Temperature Predicting Method Based on Deep Learning with
+                                Attention Mechanism
+                                <el-link type="primary" :underline="false"
+                                         href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8859"><i
+                                        class="el-icon-view"></i></el-link>
+                            </h4>
+                            <p>Authors: Me, Jiang Xie, Jie Yu, Lingyu Xu</p>
+                            <p>Publication: IEEE Geoscience and Remote Sensing Letters(JCR Q2, CCF Class C)</p>
+                        </el-card>
+                    </el-timeline-item>
 
-                    <el-collapse-item title="Deep learning" name="1">
-                        <h4><i class="el-icon-arrow-left"></i>An Adaptive Scale Sea Surface Temperature Predicting
-                            Method Based on Deep Learning with Attention Mechanism<i class="el-icon-arrow-right"></i>
-                        </h4>
-                        <div>
-                            Authors: Me, Jiang Xie, Jie Yu, Lingyu Xu
-                        </div>
-                        <div>
-                            Publication: IEEE Geoscience and Remote Sensing Letters(JCR Q2, CCF Class C)
-                        </div>
-                    </el-collapse-item>
-                    <el-collapse-item title="Algorithm" name="2">
-                        <h4><i class="el-icon-arrow-left"></i>旅行商问题的动态规划与子集编码求解法的研究与实现<i
-                                class="el-icon-arrow-right"></i>
-                        </h4>
-                        <div>
-                            Authors: 吴陈, 我, 王绍雷
-                        </div>
-                        <div>
-                            Publication: 信息与电脑
-                        </div>
-                    </el-collapse-item>
-                </el-collapse>
+                    <el-timeline-item timestamp="2015" placement="top">
+                        <el-card>
+                            <h4>旅行商问题的动态规划与子集编码求解法的研究与实现
+                                <el-link type="primary" :underline="false"
+                                         href="http://xueshu.baidu.com/usercenter/paper/show?paperid=e7796a4b3e6204779335213896ee4b6b&site=xueshu_se&hitarticle=1">
+                                    <i class="el-icon-view"></i></el-link>
+                            </h4>
+                            <p>Authors: 吴陈, 我, 王绍雷</p>
+                            <p>Publication: 信息与电脑</p>
+                        </el-card>
+                    </el-timeline-item>
+                </el-timeline>
             </el-col>
         </el-row>
 
@@ -39,9 +41,7 @@
         name: 'papers',
 
         data() {
-            return {
-                activeName: '1',
-            };
+            return {};
         }
     }
 </script>

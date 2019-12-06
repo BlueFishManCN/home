@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <el-image style="width: 30%" v-for="url in urls" :src="url" lazy></el-image>
+        <el-image style="width: 25%" v-for="url in urls" :src="url" lazy></el-image>
         <HelloWorld msg="Welcome to My Homepage :)"/>
     </div>
 </template>

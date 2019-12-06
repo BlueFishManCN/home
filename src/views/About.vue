@@ -2,7 +2,7 @@
     <div class="about">
         <h3>ME</h3>
         <el-row type="flex" justify="center">
-            <el-col :span="18">
+            <el-col :span="22">
                 I am a postgraduate studying Computer Science at the School of Computer Engineering and Science,
                 Shanghai University.
             </el-col>

@@ -1,7 +1,7 @@
 <template>
     <div class="projects">
         <el-row type="flex" justify="center">
-            <el-col :span="18">
+            <el-col :span="22">
                 CGMP
 
             </el-col>

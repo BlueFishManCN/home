@@ -2,7 +2,7 @@
     <div class="spirit">
         <h3>Introduction</h3>
         <el-row type="flex" justify="center">
-            <el-col :span="18">
+            <el-col :span="22">
                 This is a 2d adventure/puzzle game based on a story: Jerry was born in 1949. Like most people, he leads
                 an extraordinary life. However, some day he found himself has the memory of his preexistence. He thought
                 that everybody has a shinny star inside our body and before we were born we were just these stars
