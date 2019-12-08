@@ -2,7 +2,6 @@
     <div class="cgmp">
         <el-row type="flex" justify="center">
             <el-col :span="22">
-                CGMP
                 <h1>CGMP
                 </h1>
 
