@@ -55,7 +55,7 @@
 
 
                 <h3>README</h3>
-                <el-link type="primary" :underline="false" href="">
+                <el-link type="primary" :underline="false" href="https://pan.baidu.com/s/1Z3QDwVyRXSxjfb2NkzfiJQ">
                     download
                 </el-link>
             </el-col>
