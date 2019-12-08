@@ -3,11 +3,13 @@
         <el-row type="flex" justify="center">
             <el-col :span="22">
                 <el-timeline>
-                    <el-timeline-item timestamp="RIGHT NOW" placement="top">
+                    <el-timeline-item timestamp="PINED" placement="top">
                         <el-card>
                             <h3>
-                                I am a postgraduate studying Computer Science at the School of Computer Engineering and
-                                Science, Shanghai University.
+                                Follow ME?
+                                <el-link type="primary" :underline="false" href="https://github.com/BlueFishManCN">CLICK
+                                    HERE @github.
+                                </el-link>
                             </h3>
                         </el-card>
                     </el-timeline-item>

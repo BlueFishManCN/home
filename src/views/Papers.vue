@@ -24,7 +24,7 @@
                                          href="http://xueshu.baidu.com/usercenter/paper/show?paperid=e7796a4b3e6204779335213896ee4b6b&site=xueshu_se&hitarticle=1">
                                     <i class="el-icon-view"></i></el-link>
                             </h3>
-                            <div>Authors: 吴陈, 我, 王绍雷</div>
+                            <div>Authors: 我, 吴陈, 王绍雷</div>
                             <div>Publication: 信息与电脑</div>
                         </el-card>
                     </el-timeline-item>
