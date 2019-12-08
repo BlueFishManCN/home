@@ -8,8 +8,9 @@
                             <h3>
                                 Follow ME?
                                 <el-link type="primary" :underline="false" href="https://github.com/BlueFishManCN">CLICK
-                                    HERE @github.
+                                    HERE
                                 </el-link>
+                                @github.
                             </h3>
                         </el-card>
                     </el-timeline-item>
