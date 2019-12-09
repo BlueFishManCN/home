@@ -82,7 +82,7 @@
                     are new
                     fresher but we have our own unique Philosophy about games. So, good luck! And btw, we are from
                     Jiangsu
-                    University of Science and Technology. :）
+                    University of Science and Technology:）
                 </p>
             </el-col>
         </el-row>
