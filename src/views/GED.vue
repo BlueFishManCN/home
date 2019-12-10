@@ -34,6 +34,13 @@
                     historical values.
                 </p>
 
+                <el-image
+                        style="width: 40%"
+                        :src="urls[0]"
+                        :preview-src-list="urls"
+                        lazy>
+                </el-image>
+
                 <h3>PAPER</h3>
                 <el-link type="primary" :underline="false"
                          href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8859">
@@ -68,7 +75,9 @@
         name: 'ged',
 
         data() {
-            return {};
+            return {
+                urls: [require('../assets/ged/ged.jpg')],
+            };
         }
     }
 </script>
