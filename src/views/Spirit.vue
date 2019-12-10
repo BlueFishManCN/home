@@ -21,7 +21,7 @@
 
                 <h3>Manuscripts</h3>
                 <el-image
-                        style="width: 200px; height: 150px"
+                        style="width: 40%"
                         :src="parts[0]"
                         :preview-src-list="parts"
                         lazy>
@@ -29,7 +29,7 @@
 
                 <h3>Posters</h3>
                 <el-image
-                        style="width: 200px; height: 150px"
+                        style="width: 40%"
                         :src="posters[0]"
                         :preview-src-list="posters"
                         lazy>
