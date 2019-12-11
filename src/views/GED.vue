@@ -6,8 +6,6 @@
                     Mechanism
                 </h1>
 
-                <h4>Jiang Xie, Jiyuan Zhang, Jie Yu, and Lingyu Xu</h4>
-
                 <h3>ABSTARCT</h3>
                 <p>
                     Sea surface temperature (SST) prediction plays an important role in ocean-related fields. It is
