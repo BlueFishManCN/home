@@ -60,7 +60,7 @@
 
 
                 <h3>README</h3>
-                <el-link type="primary" :underline="false" href="https://pan.baidu.com/s/1Z3QDwVyRXSxjfb2NkzfiJQ">
+                <el-link type="primary" :underline="false" href="https://pan.baidu.com/s/1RRIXEjioQ1b-xOqBVxYpBg">
                     download
                 </el-link>
             </el-col>
