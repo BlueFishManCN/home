@@ -41,7 +41,7 @@
 
                 <h3>PAPER</h3>
                 <el-link type="primary" :underline="false"
-                         href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8859">
+                         href="https://ieeexplore.ieee.org/document/8804357">
                     download
                 </el-link>
 
