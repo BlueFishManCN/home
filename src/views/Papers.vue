@@ -13,7 +13,7 @@
                                         class="el-icon-view"></i></el-link>
                             </h3>
                             <div>Authors: Me, Jiang Xie, Jie Yu, Lingyu Xu</div>
-                            <div>Publication: IEEE Geoscience and Remote Sensing Letters(JCR Q2, CCF Class C)</div>
+                            <div>Publication: IEEE Geoscience and Remote Sensing Letters(JCR Q1, CCF Class C)</div>
                         </el-card>
                     </el-timeline-item>
 

@@ -15,7 +15,7 @@
                         </el-card>
                     </el-timeline-item>
 
-                    <el-timeline-item timestamp="2017.9 - RIGHT NOW" placement="top">
+                    <el-timeline-item timestamp="2017.9 - 2020.4" placement="top">
                         <el-card>
                             <img v-if="isPhone" width="20%" src="../assets/about/SHU.png">
                             <img v-else width="6%" src="../assets/about/SHU.png">
