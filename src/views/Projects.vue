@@ -3,7 +3,7 @@
         <el-row type="flex" justify="center">
             <el-col :span="22">
                 <el-timeline>
-                    <el-timeline-item timestamp="Jul 2019 - Aug 2019" placement="top">
+                    <el-timeline-item timestamp="Jul 2019 - Apr 2020" placement="top">
                         <el-card>
                             <h3>Shanghai University Bioinformatics Research Group website
                                 <el-link type="primary" :underline="false"
