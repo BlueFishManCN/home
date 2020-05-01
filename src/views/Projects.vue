@@ -42,7 +42,7 @@
                         <el-card>
                             <h3>MySpirit
                                 <el-link type="primary" :underline="false"
-                                         href="https://bluefishmancn.github.io/home/#/spirit">
+                                         href="http://biocenter.shu.edu.cn/zjy/#/spirit">
                                     <i class="el-icon-view"></i></el-link>
                             </h3>
                             <div>Creator(4)(Team EBM): Me, Ruizhe Hong, Kai Xie, Xiaomin Zhen</div>

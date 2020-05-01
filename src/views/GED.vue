@@ -39,29 +39,10 @@
                         lazy>
                 </el-image>
 
-                <h3>PAPER</h3>
+                <h3>DATASETS|CODES|README</h3>
                 <el-link type="primary" :underline="false"
-                         href="https://ieeexplore.ieee.org/document/8804357">
-                    download
-                </el-link>
-
-
-                <h3>DATASETS</h3>
-                <el-link type="primary" :underline="false"
-                         href="https://pan.baidu.com/s/1JUrdsMYZrYRMItN4F18xtQ">
-                    download
-                </el-link>
-
-
-                <h3>CODES</h3>
-                <el-link type="primary" :underline="false" href="">
-                    download
-                </el-link>
-
-
-                <h3>README</h3>
-                <el-link type="primary" :underline="false" href="https://pan.baidu.com/s/1RRIXEjioQ1b-xOqBVxYpBg">
-                    download
+                         href="https://pan.baidu.com/s/1COPo85Ldk7iZIN3FAbSetA">
+                    download (password:vefk)
                 </el-link>
             </el-col>
         </el-row>

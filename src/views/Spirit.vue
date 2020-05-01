@@ -36,20 +36,12 @@
                 </el-image>
 
                 <h3>Story</h3>
-                <iframe v-if="!isPhone" :width="screenWidth" :height="screenHeight"
-                        src="//player.bilibili.com/player.html?aid=44826043&cid=78493249&page=1" scrolling="no"
-                        frameborder="no"
-                        allowfullscreen></iframe>
-                <el-button v-if="isPhone" type="text" v-on:click="film()"><img
+                <el-button type="text" v-on:click="film()"><img
                         src="../assets/projects/spirit/film.png">
                 </el-button>
 
                 <h3>Demo</h3>
-                <iframe v-if="!isPhone" :width="screenWidth" :height="screenHeight"
-                        src="//player.bilibili.com/player.html?aid=44827264&cid=78498413&page=1" scrolling="no"
-                        frameborder="no"
-                        allowfullscreen></iframe>
-                <el-button v-if="isPhone" type="text" v-on:click="demo()"><img
+                <el-button type="text" v-on:click="demo()"><img
                         src="../assets/projects/spirit/youtube.png"></el-button>
 
 
@@ -95,7 +87,6 @@
 
         data() {
             return {
-                isPhone: false,
                 screenWidth: document.body.clientWidth * 0.5,
                 screenHeight: document.body.clientWidth * 0.5 * 3 / 4,
 
@@ -132,21 +123,6 @@
                     message: 'Not available :(',
                     type: 'error'
                 });
-            },
-            _browserRedirect() {
-                let sUserAgent = navigator.userAgent.toLowerCase()
-//输出：sUserAgent mozilla/5.0 (iphone; cpu iphone os 9_1 like mac os x) applewebkit/601.1.46 (khtml, like gecko) version/9.0 mobile/13b143 safari/601.1
-                let bIsIpad = sUserAgent.match(/ipad/i) || false
-                let bIsIphoneOs = sUserAgent.match(/iphone/i) || false
-                let bIsMidp = sUserAgent.match(/midp/i) || false
-                let bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) || false
-                let bIsUc = sUserAgent.match(/ucweb/i) || false
-                let bIsAndroid = sUserAgent.match(/android/i) || false
-                let bIsCE = sUserAgent.match(/windows ce/i) || false
-                let bIsWM = sUserAgent.match(/windows mobile/i) || false
-                if (bIsIpad[0] || bIsIphoneOs[0] || bIsMidp[0] || bIsUc7[0] || bIsUc[0] || bIsAndroid[0] || bIsCE[0] || bIsWM[0]) {
-                    this.isPhone = true;
-                }
             }
         }
     };
