@@ -2,6 +2,8 @@
     <div class="spirit">
         <el-row type="flex" justify="center">
             <el-col :span="22">
+                <h1>MySpirit</h1>
+
                 <h3>Introduction</h3>
                 <p>
                     This is a 2d adventure/puzzle game based on a story: Jerry was born in 1949. Like most people,
