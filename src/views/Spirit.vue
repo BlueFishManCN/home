@@ -106,10 +106,6 @@
             };
         },
 
-        created() {
-            this._browserRedirect()
-        },
-
         methods: {
             film() {
                 window.location.href = "https://www.bilibili.com/video/av44826043/";

@@ -1,25 +1,18 @@
 <template>
     <div class="home">
-        <el-image style="width: 25%" v-for="url in urls" :src="url" lazy></el-image>
-        <HelloWorld msg="Welcome to My Homepage :)"/>
+        <el-image style="width: 25%" :src="url" lazy></el-image>
+        <h3>Welcome to My Homepage :)</h3>
     </div>
 </template>
 
 <script>
-    // @ is an alias to /src
-    import HelloWorld from '@/components/HelloWorld.vue'
-
     export default {
         name: 'home',
 
         data() {
             return {
-                urls: [require('../assets/home/logo.gif')],
+                url: require('../assets/home/logo.gif'),
             }
-        },
-
-        components: {
-            HelloWorld
         }
     }
 </script>

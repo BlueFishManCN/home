@@ -49,7 +49,9 @@
         name: 'cgmp',
 
         data() {
-            return {urls: [require('../assets/cgmp/cgmp.jpg')],};
+            return {
+                urls: [require('../assets/cgmp/cgmp.jpg')],
+            };
         }
     }
 </script>
