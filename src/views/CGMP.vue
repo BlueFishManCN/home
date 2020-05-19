@@ -7,7 +7,7 @@
                 </h1>
 
                 <h3>ABSTARCT</h3>
-                <p>
+                <p style="text-align: justify">
                     In global climate researches, marine ecosystem researches, and ocean-related applications, it is of
                     considerable significance to accurately observe and predict Sea Surface Temperature (SST). However,
                     various physical and environmental factors affect the changes in SST, making it highly random and

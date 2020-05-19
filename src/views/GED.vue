@@ -7,7 +7,7 @@
                 </h1>
 
                 <h3>ABSTARCT</h3>
-                <p>
+                <p style="text-align: justify">
                     Sea surface temperature (SST) prediction plays an important role in ocean-related fields. It is
                     challenging due to the nonlinear temporal dynamics with changing complex factors and the inherent
                     difficulties in long-scale predictions. Conventional models often lack efficient information
