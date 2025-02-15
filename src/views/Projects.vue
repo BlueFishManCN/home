@@ -9,7 +9,7 @@
                                 <el-link type="primary" :underline="false"
                                          href="http://biocenter.shu.edu.cn/group"><i class="el-icon-view"></i></el-link>
                             </h3>
-                            <div>Creator(2): Me, Jiaming Ouyang</div>
+                            <div>Creator(2): Me(Jiyuan Zhang), Jiaming Ouyang</div>
                             <div>Tools & Technologies: CodeIgniter, Vue.js, Element-UI</div>
                         </el-card>
                     </el-timeline-item>
@@ -33,19 +33,16 @@
                                          href="http://biocenter.shu.edu.cn/dentist_proj">
                                     <i class="el-icon-view"></i></el-link>
                             </h3>
-                            <div>Creator(4): Me, Jiamin Sun, Ruiying Wu, Fuzhang Yang</div>
+                            <div>Creator(4): Me(Jiyuan Zhang), Jiamin Sun, Ruiying Wu, Fuzhang Yang</div>
                             <div>Tools & Technologies: CodeIgniter, Vue.js, Element-UI</div>
                         </el-card>
                     </el-timeline-item>
 
                     <el-timeline-item timestamp="Dec 2015 – Apr 2016" placement="top">
                         <el-card>
-                            <h3>MySpirit
-                                <el-link type="primary" :underline="false"
-                                         href="http://biocenter.shu.edu.cn/zjy/#/spirit">
-                                    <i class="el-icon-view"></i></el-link>
+                            <h3>MySpirit<router-link to="/spirit"><i class="el-icon-view"></i></router-link>
                             </h3>
-                            <div>Creator(4)(Team EBM): Me, Ruizhe Hong, Kai Xie, Xiaomin Zhen</div>
+                            <div>Creator(4)(Team EBM): Me(Jiyuan Zhang), Ruizhe Hong, Kai Xie, Xiaomin Zhen</div>
                             <div>Tools & Technologies: Unity3D</div>
                             <div>
                                 <el-alert

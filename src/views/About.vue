@@ -15,6 +15,14 @@
                         </el-card>
                     </el-timeline-item>
 
+                    <el-timeline-item timestamp="2020.6 - 2025.3" placement="top">
+                        <el-card>
+                            <img v-if="isPhone" width="20%" src="../assets/about/Baidu.png">
+                            <img v-else width="6%" src="../assets/about/Baidu.png">
+                            <h4>Ad Recommendation Algorithm Engineer</h4>
+                        </el-card>
+                    </el-timeline-item>
+
                     <el-timeline-item timestamp="2017.9 - 2020.4" placement="top">
                         <el-card>
                             <img v-if="isPhone" width="20%" src="../assets/about/SHU.png">
