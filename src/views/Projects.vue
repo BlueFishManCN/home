@@ -21,7 +21,7 @@
                                 <el-link type="primary" :underline="false" href="http://geg2018.shu.edu.cn"><i
                                         class="el-icon-view"></i></el-link>
                             </h3>
-                            <div>Creator(1): Me</div>
+                            <div>Creator(1): Me(Jiyuan Zhang)</div>
                             <div>Tools & Technologies: CodeIgniter, Vue.js, Material Design</div>
                         </el-card>
                     </el-timeline-item>
