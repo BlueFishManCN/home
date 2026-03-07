@@ -1,25 +1,17 @@
 <template>
     <div class="about">
+        <div class="page-header">
+            <h1 class="page-title">{{ t.title }}</h1>
+            <p class="page-desc">{{ t.sub }}</p>
+        </div>
         <el-row type="flex" justify="center">
             <el-col :span="22">
                 <el-timeline>
-                    <el-timeline-item timestamp="PINED" placement="top">
-                        <el-card>
-                            <h3>
-                                Follow ME?
-                                <el-link type="primary" :underline="false" href="https://github.com/BlueFishManCN">CLICK
-                                    HERE
-                                </el-link>
-                                @github.
-                            </h3>
-                        </el-card>
-                    </el-timeline-item>
-
-                    <el-timeline-item timestamp="2020.6 - 2025.3" placement="top">
+                    <el-timeline-item timestamp="2020.6 - 2026.3" placement="top">
                         <el-card>
                             <img v-if="isPhone" width="20%" src="../assets/about/Baidu.png">
                             <img v-else width="6%" src="../assets/about/Baidu.png">
-                            <h4>Ad Recommendation Algorithm Engineer</h4>
+                            <h4>{{ t.baidu }}</h4>
                         </el-card>
                     </el-timeline-item>
 
@@ -27,7 +19,7 @@
                         <el-card>
                             <img v-if="isPhone" width="20%" src="../assets/about/SHU.png">
                             <img v-else width="6%" src="../assets/about/SHU.png">
-                            <h4>Master's degree, Computer Science, Shanghai University</h4>
+                            <h4>{{ t.masters }}</h4>
                         </el-card>
                     </el-timeline-item>
 
@@ -35,13 +27,13 @@
                         <el-card>
                             <img v-if="isPhone" width="25%" src="../assets/about/JUST.jpeg">
                             <img v-else width="8%" src="../assets/about/JUST.jpeg">
-                            <h4> Bachelor's degree, Computer Science, Jiangsu University of Science and Technology</h4>
+                            <h4>{{ t.bachelors }}</h4>
                         </el-card>
                     </el-timeline-item>
 
                     <el-timeline-item timestamp="LONG LONG AGO" placement="top">
                         <el-card>
-                            <h1>Fin</h1>
+                            <h4>{{ t.fin }}</h4>
                         </el-card>
                     </el-timeline-item>
                 </el-timeline>
@@ -58,6 +50,30 @@
             return {
                 isPhone: false,
             };
+        },
+
+        computed: {
+            t() {
+                const i18n = {
+                    en: {
+                        title: 'About',
+                        sub: 'Engineer · Researcher · Maker',
+                        baidu: 'Ad Recommendation Algorithm Engineer',
+                        masters: "Master's degree, Computer Science, Shanghai University",
+                        bachelors: "Bachelor's degree, Computer Science, Jiangsu University of Science and Technology",
+                        fin: 'Fin'
+                    },
+                    zh: {
+                        title: '关于',
+                        sub: '工程师 · 研究者 · 创客',
+                        baidu: '广告推荐算法工程师',
+                        masters: '计算机科学硕士，上海大学',
+                        bachelors: '计算机科学学士，江苏科技大学',
+                        fin: '结'
+                    }
+                };
+                return i18n[this.$store.state.lang];
+            }
         },
 
         created() {
@@ -83,3 +99,48 @@
         }
     }
 </script>
+
+<style scoped>
+    .about {
+        background: #f5f5f7;
+        min-height: 100vh;
+    }
+
+    .page-header {
+        text-align: center;
+        padding: 72px 24px 48px;
+        background: linear-gradient(180deg, #1d1d1f 0%, #2c2c2e 100%);
+    }
+
+    .page-title {
+        margin: 0 0 12px;
+        font-size: 56px;
+        font-weight: 700;
+        color: #f5f5f7;
+        letter-spacing: -1px;
+    }
+
+    .page-desc {
+        margin: 0;
+        font-size: 19px;
+        color: rgba(245, 245, 247, 0.6);
+        font-weight: 300;
+    }
+
+    .el-row {
+        padding: 48px 0 64px;
+        max-width: 860px;
+        margin: 0 auto;
+    }
+
+    .about :deep(.el-card__body) h4 {
+        margin: 8px 0 0;
+        font-size: 15px;
+        font-weight: 500;
+        color: #3a3a3c;
+    }
+
+    .about :deep(.el-card__body) img {
+        border-radius: 8px;
+    }
+</style>

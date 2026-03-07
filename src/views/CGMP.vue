@@ -28,7 +28,6 @@
                 </p>
 
                 <el-image
-                        style="width: 40%"
                         :src="urls[0]"
                         :preview-src-list="urls"
                         lazy>
@@ -55,3 +54,60 @@
         }
     }
 </script>
+
+<style scoped>
+    .cgmp {
+        background: #f5f5f7;
+        min-height: 100vh;
+        padding-bottom: 64px;
+    }
+
+    .cgmp :deep(.el-col) {
+        text-align: left;
+        padding: 60px 0;
+    }
+
+    .cgmp :deep(h1) {
+        font-size: 36px;
+        letter-spacing: -0.5px;
+        color: #1d1d1f;
+        line-height: 1.2;
+        margin-bottom: 32px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #d2d2d7;
+    }
+
+    .cgmp :deep(h3) {
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        color: #6e6e73;
+        margin: 36px 0 12px;
+    }
+
+    .cgmp :deep(p) {
+        font-size: 16px;
+        line-height: 1.75;
+        color: #3a3a3c;
+    }
+
+    .cgmp :deep(.el-image) {
+        display: block;
+        width: 40%;
+        margin: 24px auto;
+        border-radius: 16px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 680px) {
+        .cgmp :deep(.el-image) {
+            width: 80%;
+        }
+    }
+
+    .cgmp :deep(.el-link) {
+        font-size: 15px;
+        font-weight: 500;
+    }
+</style>
