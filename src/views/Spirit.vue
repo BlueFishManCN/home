@@ -8,17 +8,17 @@
                 <p>
                     This is a 2d adventure/puzzle game based on a story: Jerry was born in 1949. Like most people,
                     he leads
-                    an extraordinary life. However, some day he found himself has the memory of his preexistence. He
+                    an extraordinary life. However, some day he found that he had the memory of his preexistence. He
                     thought
-                    that everybody has a shinny star inside our body and before we were born we were just these
+                    that everybody has a shiny star inside our body and before we were born we were just these
                     stars
                     floating in the sky seeking for the beautiful body we desire to live in. The stars would turn to
                     the
-                    soul once they found the body belong to their heart and started a journey from the spirit world
+                    soul once they found the body belonging to their heart and started a journey from the spirit world
                     to find
                     the body. Fortunately, Jerry was the lucky one who was chosen. In the real world, Jerry was
-                    companied
-                    with his soul. There are far more challenges and puzzles waiting for them to face…
+                    accompanied
+                    by his soul. There are far more challenges and puzzles waiting for them to face…
                 </p>
 
                 <h3>Manuscripts</h3>
@@ -69,12 +69,11 @@
                     EBM is short for 'Earn Big Money'! That's our biggest ambition. Actually there're more than four
                     guys in
                     our team. We have one coding peasant who is always coding and another Internet lover who is now
-                    busying
-                    with all kinds of exams. So this time we come to Imagine Cup 2016 as a small of our big team
+                    busy
+                    with all kinds of exams. So this time we come to Imagine Cup 2016 as a small part of our big team
                     'EBM', we
-                    named our team 'EBMx'. We choose to make games this time becasue we are crazy about games! We
-                    are new
-                    fresher but we have our own unique Philosophy about games. So, good luck! And btw, we are from
+                    named our team 'EBMx'. We choose to make games this time because we are crazy about games! We
+                    are newcomers but we have our own unique Philosophy about games. So, good luck! And btw, we are from
                     Jiangsu
                     University of Science and Technology:）
                 </p>

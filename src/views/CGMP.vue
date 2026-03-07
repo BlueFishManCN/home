@@ -6,7 +6,7 @@
                     Influences
                 </h1>
 
-                <h3>ABSTARCT</h3>
+                <h3>ABSTRACT</h3>
                 <p style="text-align: justify">
                     In global climate researches, marine ecosystem researches, and ocean-related applications, it is of
                     considerable significance to accurately observe and predict Sea Surface Temperature (SST). However,
